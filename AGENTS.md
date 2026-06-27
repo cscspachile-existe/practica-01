@@ -21,8 +21,9 @@
 
 ### HTML de práctica
 
-- Páginas con CSS inline, fondo `#1a1a2e`, copy en español
-- Ver `.cursor/rules/html-practica.mdc` e `index.html`
+- Páginas: `index.html`, `about.html`, `contact.html`
+- CSS inline, fondo `#1a1a2e`, copy en español
+- Ver `.cursor/rules/html-practica.mdc`
 
 ### Componentes UI
 
@@ -31,17 +32,31 @@
 
 ### Autenticación
 
-- (pendiente — escalar a cloud si se implementa JWT)
+- Pendiente — escalar a Cursor cloud (Auto OFF, MAX OFF, Sonnet) si se implementa JWT
+- Tras resolver: documentar en `.cursor/rules/auth-jwt.mdc`
 
 ### API
 
 - (pendiente — REST + Zod cuando aplique)
+
+## Validación sistema híbrido (2026-06-27)
+
+| Prueba | Herramienta | Estado |
+|--------|-------------|--------|
+| Chat convenciones | Continue + Ollama | OK |
+| Crear/editar HTML | Cline / Agent | OK |
+| Button.tsx | Cline / Agent | OK |
+| Rules html-practica | about.html, contact.html | OK |
+| @Codebase Button | Continue `@Codebase` | Ver `src/components/Button.tsx` |
+| Autocomplete | Continue 1.5B en `<footer` | Probar en `index.html` |
 
 ## Estructura del repo
 
 ```
 /
 ├── index.html
+├── about.html
+├── contact.html
 ├── src/
 │   └── components/
 │       └── Button.tsx

@@ -3,46 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Continue OK — Práctica 01</title>
+    <title>Práctica 01 — Sistema Híbrido</title>
   </head>
   <body
     style="
       margin: 0;
       min-height: 100vh;
       display: flex;
-      align-items: center;
-      justify-content: center;
+      flex-direction: column;
       background-color: #1a1a2e;
       color: #eaeaea;
       font-family: system-ui, -apple-system, sans-serif;
     "
   >
-    <main style="max-width: 32rem; padding: 2rem; text-align: center">
-      <h1 style="margin: 0 0 0.5rem; font-size: 2rem">
-        Continue OK — Práctica 01
-      </h1>
-      <p style="margin: 0 0 1rem; font-size: 1.125rem; color: #a8a8b8">
-        Probado con Ollama local
-      </p>
-      <p style="margin: 0 0 1.5rem; line-height: 1.6; color: #c8c8d0">
-        Bienvenido a practica-01 del sistema híbrido. Esta página fue creada
-        siguiendo las convenciones del proyecto.
-      </p>
-      <button
-        type="button"
-        style="
-          padding: 0.75rem 1.5rem;
-          font-size: 1rem;
-          font-weight: 600;
-          color: #1a1a2e;
-          background-color: #eaeaea;
-          border: none;
-          border-radius: 0.5rem;
-          cursor: pointer;
-        "
-      >
-        Empezar
-      </button>
+    <main
+      style="
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+      "
+    >
+      <div style="max-width: 32rem; text-align: center">
+        <h1 style="margin: 0 0 1rem; font-size: 2rem">
+          Práctica 01 — Sistema Híbrido
+        </h1>
+        <p style="margin: 0 0 1.5rem; line-height: 1.6; color: #c8c8d0">
+          Bienvenido a practica-01. Páginas HTML con CSS inline y componentes
+          React documentados en AGENTS.md y Rules.
+        </p>
+        <button
+          type="button"
+          style="
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a2e;
+            background-color: #eaeaea;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+          "
+        >
+          Empezar
+        </button>
+      </div>
     </main>
+    <footer
+      style="
+        padding: 1rem 2rem;
+        text-align: center;
+        color: #c8c8d0;
+        border-top: 1px solid #2a2a3e;
+      "
+    >
+      <a href="about.html" style="color: #eaeaea; margin: 0 0.75rem">Acerca de</a>
+      <a href="contact.html" style="color: #eaeaea; margin: 0 0.75rem">Contacto</a>
+    </footer>
   </body>
 </html>
