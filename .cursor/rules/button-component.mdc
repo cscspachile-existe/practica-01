@@ -1,0 +1,34 @@
+---
+description: Componente Button reutilizable — variantes primary/secondary
+globs: src/components/Button.tsx,**/*Button*
+alwaysApply: false
+---
+
+# Button component
+
+Ubicación: `src/components/Button.tsx`
+
+## API
+
+- `variant?: "primary" | "secondary"` (default: `"primary"`)
+- Extiende `ButtonHTMLAttributes<HTMLButtonElement>`
+- `type` default: `"button"`
+
+## Variantes (Tailwind)
+
+- **primary:** fondo claro, texto oscuro
+- **secondary:** borde claro, fondo transparente, texto claro
+
+## Uso
+
+```tsx
+import { Button } from "@/components/Button";
+
+<Button variant="primary">Empezar</Button>
+<Button variant="secondary">Cancelar</Button>
+```
+
+## Convenciones
+
+- Componente funcional, props tipadas, sin `any`
+- Aceptar `className` para extender estilos

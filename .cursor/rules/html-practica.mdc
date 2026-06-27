@@ -1,0 +1,32 @@
+---
+description: Páginas HTML de práctica — estilo oscuro, CSS inline, texto en español
+globs: index.html,**/*.html
+alwaysApply: false
+---
+
+# HTML de práctica
+
+## Estructura mínima
+
+- `<!DOCTYPE html>`, `lang="es"`
+- `<main>` centrado con flex en `<body>`
+- Un `<h1>`, un `<p>` de bienvenida, CTA opcional (`<button>`)
+
+## Estilo
+
+- Fondo: `#1a1a2e`
+- Texto principal: `#eaeaea`
+- Texto secundario: `#c8c8d0`
+- CSS **inline** en atributos `style` (sin archivo CSS separado en prácticas)
+- Fuente: `system-ui, -apple-system, sans-serif`
+
+## Contenido
+
+- UI y copy en **español**
+- Título de página coherente con el `<h1>`
+
+## Botones HTML
+
+- `type="button"` por defecto
+- Contraste claro sobre fondo oscuro (fondo `#eaeaea`, texto `#1a1a2e`)
+- `border-radius: 0.5rem`, padding `0.75rem 1.5rem`
