@@ -63,7 +63,7 @@
 | `@Codebase` Button | Continue + embed | Ollama local | OK — primary/secondary en `Button.tsx` |
 | Edit HTML (emoji h1) | Continue Edit | Ollama local | OK — `index.html` actualizado |
 | Autocomplete Tab | Continue 1.5B | Ollama local | OK — `qwen2.5-coder:1.5b` responde |
-| Embed `@Codebase` | `nomic-embed-text` | Ollama local | OK |
+| Embed `@Codebase` | `nomic-embed-text` | Ollama local | OK (modelo instalado; indexar en panel Continue) |
 | Crear/editar HTML | Cline / Agent | Agent cloud | OK (repetir en Cline panel) |
 | Button.tsx | Cline / Agent | Agent cloud | OK |
 | Rules html-practica | about.html, contact.html | Cline/Agent | OK |
